@@ -1,9 +1,18 @@
-# ITER PCI — A1 / V7 panoramic room tour
+# ITER PCI — A1 / V7 room tour
 
-Live site: https://art-vish.github.io/iter-pci-roomtour-v2/
+Published tour: https://art-vish.github.io/iter-pci-roomtour-v2/
 
-Six embedded 4096 × 2048 panoramas of the completed A1 / V7 model. Two rows of four operator desks, oval table upstairs, four ceiling cassettes and two side bulkheads. Drag to look around; choose a numbered viewpoint or a map marker. The ceiling inspection button points upward.
+The completed A1 / V7 room: two rows of four operator desks, oval table on the upper tier, four ceiling cassettes and two side bulkheads dropped by 300 mm.
 
-The continuous 40-second video is rendering and will be added when complete. Its button is currently disabled; the panoramic tour is ready to use.
+- Six interactive 4096 × 2048 panoramas embedded in `index.html`; no external runtime or CDN required.
+- Drag to look around, scroll to zoom, use numbered buttons or the plan to change location.
+- The ceiling inspection button looks upward from the current panorama.
+- Video: `room_walkthrough_A1_V7.mp4`, 40 seconds, 1280 × 720, 24 fps, H.264, no audio.
+- Keyboard arrows and keys 1–6 work while the panorama has focus. Auto-tour and fullscreen controls are available.
 
-GitHub Pages serves main from /. No external libraries or CDN are required. The older iter-pci-roomtour repository is a separate version.
+This is a tour between fixed panoramic viewpoints, with a separate continuous video walkthrough. It is not a free-roaming game environment.
+
+GitHub Pages serves `main` from `/`. Keep `.nojekyll` and use relative asset paths.
+The older `art-vish/iter-pci-roomtour` repository is a separate version.
+
+Source model: `models/v07/A1_ceiling_HVAC_v07.blend` in the design project. Model geometry was preserved; this website contains rendered views only. Equipment envelopes are conceptual, not a final HVAC specification.
