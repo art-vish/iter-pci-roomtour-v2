@@ -1,20 +1,9 @@
-# ITER PCI Room Tour V2
+# ITER PCI — A1 / V7 panoramic room tour
 
-Новый 3D-румтур ITER PCI. Пока опубликована стартовая страница.
+Live site: https://art-vish.github.io/iter-pci-roomtour-v2/
 
-- Сайт: https://art-vish.github.io/iter-pci-roomtour-v2/
-- Репозиторий: https://github.com/art-vish/iter-pci-roomtour-v2
-- Предыдущая версия: https://art-vish.github.io/iter-pci-roomtour/
+Six embedded 4096 × 2048 panoramas of the completed A1 / V7 model. Two rows of four operator desks, oval table upstairs, four ceiling cassettes and two side bulkheads. Drag to look around; choose a numbered viewpoint or a map marker. The ceiling inspection button points upward.
 
-## Публикация
+The continuous 40-second video is rendering and will be added when complete. Its button is currently disabled; the panoramic tour is ready to use.
 
-GitHub Pages публикует ветку `main`, папку `/` (корень). Изменения в `main` автоматически запускают публикацию.
-
-1. Замените `index.html` готовым румтуром.
-2. Добавьте рядом необходимые JS, CSS, панорамы, текстуры и модели (например, в `assets/`).
-3. Сохраните `.nojekyll` в корне.
-4. Выполните commit и push в `main` и дождитесь успешного `pages build and deployment` в Actions.
-
-Используйте относительные пути (`./assets/...`). Если сборщик требует base path, задайте `/iter-pci-roomtour-v2/`. Загружайте готовую статическую сборку; серверная часть на Pages не запускается.
-
-Исходный репозиторий `art-vish/iter-pci-roomtour` сохраняется отдельно. Новые рендеры и новый тур публикуйте только в V2.
+GitHub Pages serves main from /. No external libraries or CDN are required. The older iter-pci-roomtour repository is a separate version.
